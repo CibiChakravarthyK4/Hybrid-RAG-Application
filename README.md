@@ -24,6 +24,7 @@ Hybrid-RAG-Application/
 ├── docker-compose.yml     # Docker multi-container orchestration
 └── README.md              # Project documentation
 
+
 ⚙️ Getting Started & Local Deployment
 To run this application locally using Docker:
 
@@ -51,7 +52,5 @@ Test and Reload Nginx:
 
 Bash
 sudo nginx -t && sudo systemctl reload nginx
-
-├── frontend/              # Streamlit user interface
 ├── docker-compose.yml     # Docker multi-container orchestration
 └── README.md              # Project documentation
