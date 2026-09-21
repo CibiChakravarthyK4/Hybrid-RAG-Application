@@ -25,7 +25,7 @@ Hybrid-RAG-Application/
 └── README.md              # Project documentation
 
 
-⚙️ Getting Started & Local Deployment
+##⚙️ Getting Started & Local Deployment
 To run this application locally using Docker:
 
 Clone the repository:
