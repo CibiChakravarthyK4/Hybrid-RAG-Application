@@ -47,10 +47,7 @@ Backend API docs: http://localhost:8000/docs
 * Configure Docker Services: Ensure your docker-compose.yml maps the Streamlit frontend to port 8501.
 * Setup Nginx Reverse Proxy: Configure /etc/nginx/sites-available/default to proxy incoming traffic to http://127.0.0.1:8501, ensuring WebSocket support headers (Upgrade and Connection) are enabled for Streamlit.
 * Secure with SSL: Install and configure a Let's Encrypt SSL certificate using Certbot: sudo certbot --nginx -d myhybridrag.online.
-
-Test and Reload Nginx:
-
+* Test and Reload Nginx:
 Bash
 sudo nginx -t && sudo systemctl reload nginx
-├── docker-compose.yml     # Docker multi-container orchestration
 └── README.md              # Project documentation
