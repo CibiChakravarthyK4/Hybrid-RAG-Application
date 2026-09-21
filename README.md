@@ -1,4 +1,4 @@
-Hybrid RAG Application
+#Hybrid RAG Application
 
 A containerized Hybrid Retrieval-Augmented Generation (RAG) application built with Streamlit (frontend), FastAPI (backend), and intelligent vector search capabilities. The application allows users to upload PDF documents and interact with their data seamlessly via a chat interface.
 
